@@ -1,0 +1,33 @@
+/* styles.css */
+
+.root {
+    -fx-background-color: #f0f0f0; /* Helleres Grau für den Hintergrund */
+}
+
+.grid-pane {
+    -fx-background-color: #f5f5f5; /* Hellgrau für das GridPane */
+    -fx-padding: 20px;
+    -fx-border-radius: 10px;
+    -fx-border-color: #d0d0d0; /* Heller Grauer Rahmen */
+    -fx-border-width: 1px;
+}
+
+.label {
+    -fx-font-size: 14pt;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333; /* Dunkelgrauer Text */
+}
+
+.text-field {
+    -fx-font-size: 14pt;
+    -fx-padding: 5px;
+    -fx-background-color: #e0e0e0; /* Helleres Grau für das Textfeld */
+    -fx-text-fill: #333333; /* Dunkelgrauer Text */
+    -fx-border-color: #d0d0d0; /* Heller Grauer Rahmen */
+    -fx-border-width: 1px;
+}
+
+/* Optional: Schatteneffekt beim Hover für die GridPane */
+.grid-pane:hover {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0, 0, 0);
+}
